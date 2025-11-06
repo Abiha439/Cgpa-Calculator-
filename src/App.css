@@ -1,0 +1,45 @@
+.cgpa-container{
+  background-color: #f7f9fc;
+  max-width: 400px;
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cgpa-container input {
+  width: 80%;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.cgpa-container button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cgpa-container button:hover {
+  background-color: #222;
+}
+input:focus {
+  outline: none;
+}
+.cgpa-container h2 {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
